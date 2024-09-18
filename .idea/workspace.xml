@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204e4eba-6174-48e9-82a5-b0d85556331e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/controller/appLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/controller/controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/controller/loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/view/appView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/view/news/news.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/view/news/news.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/view/sources/sources.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/view/sources/sources.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1726678028446</updated>
       <workItem from="1726678029614" duration="1874000" />
-      <workItem from="1726679989009" duration="6919000" />
+      <workItem from="1726679989009" duration="7226000" />
+      <workItem from="1726687703849" duration="508000" />
     </task>
     <servers />
   </component>
