@@ -1,5 +1,5 @@
-import News from './news/news.js';
-import Sources from './sources/sources.js';
+import News from './news/news';
+import Sources from './sources/sources';
 
 export class AppView {
     constructor() {

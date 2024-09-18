@@ -2,18 +2,10 @@ body {
     color: #fff;
     background: #17181c;
     font-family: sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    min-height: 100%;
 }
 
 header {
     padding: 10px 30px;
-    background-color: #30c5ff;
 }
 
 header h1 {
@@ -22,7 +14,6 @@ header h1 {
 }
 
 footer {
-    background-color: #30c5ff;
     height: 100px;
     display: flex;
     align-items: center;

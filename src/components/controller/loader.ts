@@ -1,4 +1,5 @@
 class Loader {
+
     constructor(baseLink, options) {
         this.baseLink = baseLink;
         this.options = options;
@@ -23,13 +24,14 @@ class Loader {
         return res;
     }
 
-    makeUrl(options, endpoint) {
+    makeUrl(options, endpoint):string {
         const urlOptions = { ...this.options, ...options };
         let url = `${this.baseLink}${endpoint}?`;
-        Object.keys(urlOptions).forEach((key) => {
+
+        Object.keys(urlOptions).forEach((key:string) => {
             url += `${key}=${urlOptions[key]}&`;
         });
-        console.log(url);
+
         return url.slice(0, -1);
     }
 
