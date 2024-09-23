@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="204e4eba-6174-48e9-82a5-b0d85556331e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/controller/appLoader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/controller/appLoader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/controller/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/controller/controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/controller/loader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/controller/loader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/view/appView.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/view/appView.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/view/news/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/view/news/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/view/news/news.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/view/news/news.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/view/sources/sources.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/view/sources/sources.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/view/sources/sources.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/view/sources/sources.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/app/app.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/controller/loader.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +61,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;F:\\FrontEnd\\urban\\module12\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\FrontEnd\\urban\\module12\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -55,7 +71,7 @@
       <recent name="F:\FrontEnd\urban\module12\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -93,7 +109,18 @@
       <updated>1726678028446</updated>
       <workItem from="1726678029614" duration="1874000" />
       <workItem from="1726679989009" duration="7226000" />
-      <workItem from="1726687703849" duration="508000" />
+      <workItem from="1726687703849" duration="984000" />
+      <workItem from="1726762835227" duration="1689000" />
+      <workItem from="1726764576003" duration="9764000" />
+      <workItem from="1726814092523" duration="4728000" />
+      <workItem from="1726852047256" duration="7995000" />
+      <workItem from="1726938507598" duration="6000" />
+      <workItem from="1726938963814" duration="20000" />
+      <workItem from="1726940680358" duration="1133000" />
+      <workItem from="1726942087546" duration="4953000" />
+      <workItem from="1727024781652" duration="4636000" />
+      <workItem from="1727032077001" duration="48000" />
+      <workItem from="1727102611402" duration="2060000" />
     </task>
     <servers />
   </component>

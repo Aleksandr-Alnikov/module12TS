@@ -1,21 +1,48 @@
 import './sources.css';
 
+interface SourceData {
+    name: string;
+    id: number;
+}
+
 class Sources {
-    draw(data) {
+    public draw(data: SourceData[]) {
         const fragment = document.createDocumentFragment();
-        const sourceItemTemp = document.querySelector('#sourceItemTemp');
+        const sourceItemTemplate = document.getElementById('sourceItemTemp') as HTMLTemplateElement;
+
+        if (!sourceItemTemplate) {
+            throw new Error('Could not find template with id #sourceItemTemp');
+        }
+
+        const sourceItemTemplateContent = sourceItemTemplate.content;
 
         data.forEach((item) => {
-            const sourceClone = sourceItemTemp.content.cloneNode(true);
+            const sourceClone = sourceItemTemplateContent.cloneNode(true) as DocumentFragment;
 
-            sourceClone.querySelector('.source__item-name').textContent = item.name;
-            sourceClone.querySelector('.source__item').setAttribute('data-source-id', item.id);
+            const nameElement = sourceClone.querySelector<HTMLParagraphElement>('.source__item-name');
+            if (nameElement) {
+                nameElement.textContent = item.name;
+            }
 
-            fragment.append(sourceClone);
+            const itemElement = sourceClone.querySelector<HTMLElement>('.source__item');
+            if (itemElement) {
+                itemElement.setAttribute('data-source-id', String(item.id));
+            }
+
+            fragment.appendChild(sourceClone);
         });
 
-        document.querySelector('.sources').append(fragment);
+        const sourcesContainer = document.querySelector<HTMLElement>('.sources');
+        if (sourcesContainer) {
+            sourcesContainer.appendChild(fragment);
+        } else {
+            console.warn('Container .sources not found');
+        }
     }
 }
 
+
 export default Sources;
+
+
+
